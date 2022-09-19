@@ -60,7 +60,7 @@
         <div class="samaintro1">
           <h1>about</h1>
           <p>
-            nama saya arya firmansyah umur saya 20 tahun saya ,pengalaman saya
+            Nama saya arya firmansyah umur saya 20 tahun saya ,pengalaman saya
             belajar coding saya dibimbing oleh guru saya pak andrawan
             erlangga,saya belajar frontend,saya belajar coding menggunakan
             windows,dan menggunakan aplikasi atau web jsfiddle,vuejs,nodejs,dan
