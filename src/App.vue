@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <MenuUtama msg="Welcome to Your Vue.js App" />
+    <MenuUtama msg="Welcome to Your Vue.js" />
   </div>
 </template>
 
