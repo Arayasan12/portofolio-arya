@@ -76,20 +76,16 @@
       <b-col v-else-if="index === 2" cols="9" class="intro2">
         <div class="samaintro2">
           <h1 class="DataPribadi">DATA PRIBADI</h1>
-          <ul class="list-group">
-            <li class="list-group-item">Nama : Arya Firmansyah</li>
-            <li class="list-group-item">
-              Alamat : Villa Bekasi Indah 2 Blok.J12 no.12 RT.02 RW.38
-            </li>
-            <li class="list-group-item">
-              Tempat Tanggal Lahir : Klaten,06 April 2005
-            </li>
-            <li class="list-group-item">No.Telepon : 085775358201</li>
-            <li class="list-group-item">Jenis Klamin : Laki Laki</li>
-            <li class="list-group-item">Agama : Islam</li>
-            <li class="list-group-item">Kewarganegaraan : Indonesia</li>
-            <li class="list-group-item">Status : Belum Menikah</li>
-            <li class="list-group-item">Pendidikan Terakhir : Lulus SMK</li>
+          <ul>
+            <li>Nama : Arya Firmansyah</li>
+            <li>Alamat : Villa Bekasi Indah 2 Blok.J12 no.12 RT.02 RW.38</li>
+            <li>Tempat Tanggal Lahir : Klaten,06 April 2005</li>
+            <li>No.Telepon : 085775358201</li>
+            <li>Jenis Klamin : Laki Laki</li>
+            <li>Agama : Islam</li>
+            <li>Kewarganegaraan : Indonesia</li>
+            <li>Status : Belum Menikah</li>
+            <li>Pendidikan Terakhir : Lulus SMK</li>
           </ul>
         </div>
       </b-col>
@@ -160,15 +156,11 @@ export default {
   color: white;
   font-weight: 500px;
   font-size: 25px;
-  margin-left: -20px;
-  width: 120%;
 }
 .item-navigasi {
   padding-top: 25px;
   padding-bottom: 25px;
-  padding-left: 55px;
-  margin-left: -20px;
-  margin-right: -20px;
+  padding-left: 25px;
 }
 .item-navigasi:hover {
   background-color: #2a2e57;
@@ -188,8 +180,7 @@ export default {
 .intro1 {
   background-image: url("../assets/Apa-Itu-Coding.webp");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: 100% 100%;
 }
 .samaintro1 {
   font-size: 25px;
@@ -248,6 +239,17 @@ export default {
   }
   .pencetan {
     display: block;
+  }
+  .intro1 {
+    width: 100%;
+  }
+  .intro2,
+  .intro3 {
+    width: 100vh;
+    height: 100vh;
+  }
+  .samaintro2 {
+    margin-right: 0;
   }
 }
 </style>
